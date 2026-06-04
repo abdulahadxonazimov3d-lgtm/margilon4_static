@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marg‘ilon shahar 4-son texnikumi</title>
+  <meta name="description" content="Marg‘ilon shahar 4-son texnikumi — 1963-yildan buyon ta'lim va taraqqiyot yo‘lida." />
+  <meta name="keywords" content="Marg‘ilon 4-son texnikumi, qabul 2026, kasb-hunar ta'limi, Farg‘ona, texnikum" />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <span>📍 Marg‘ilon shahri</span><span>☎ +998 71 237-16-43</span><span>✉ info@margilon4.uz</span>
+    <div class="langs"><button data-lang="uz">UZ</button><button data-lang="ru">RU</button><button data-lang="en">EN</button><button data-lang="de">DE</button></div>
+  </div>
+
+  <header class="siteHeader" id="top">
+    <div class="headerMain">
+      <a class="brand" href="#home"><img src="assets/logo.png"><div><h1>Marg‘ilon shahar<br>4-son texnikumi</h1><p>1963-yildan buyon ta'lim va taraqqiyot yo‘lida</p></div></a>
+      <div class="headerActions">
+        <button id="loginOpen" class="ghost" data-i18n="loginBtn">Kirish</button>
+        <button id="registerOpen" class="gold" data-i18n="registerBtn">Ro‘yxatdan o‘tish</button>
+        <button class="menuBtn" id="menuBtn">☰</button>
+      </div>
+    </div>
+    <nav id="nav" class="navPill">
+      <a href="#home" data-i18n="navHome">Bosh sahifa</a><a href="#about" data-i18n="navAbout">Texnikum haqida</a><a href="#leadership" data-i18n="navLeadership">Rahbariyat</a><a href="#programs" data-i18n="navPrograms">Yo‘nalishlar</a><a href="#admission" data-i18n="navAdmission">Qabul 2026</a><a href="#news" data-i18n="navNews">Yangiliklar</a><a href="#gallery" data-i18n="navGallery">Galereya</a><a href="#tour" data-i18n="navTour">Virtual tur</a><a href="#partners" data-i18n="navPartners">Xalqaro hamkorlik</a><a href="#graduates" data-i18n="navGraduates">Bitiruvchilar</a><a href="#library" data-i18n="navLibrary">Elektron kutubxona</a><a href="#contact" data-i18n="navContact">Bog‘lanish</a><a href="#map" data-i18n="navMap">Xarita</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="heroText">
+        <span class="badge" data-i18n="heroBadge">Qabul 2026 ochiq</span>
+        <h2 data-i18n="heroTitle">Kasb egasi — kelajak bunyodkori!</h2>
+        <p data-i18n="heroText">Zamonaviy ta'lim, amaliy bilim va xalqaro standartlarga mos kasbiy tayyorgarlik.</p>
+        <div class="heroActions"><button class="gold" id="applyHero" data-i18n="applyBtn">O‘qishga ariza yuborish</button><a class="outline" href="#programs" data-i18n="seePrograms">Yo‘nalishlarni ko‘rish</a></div>
+        <div class="stats"><b>1963<span>yildan buyon</span></b><b>5000+<span>bitiruvchilar</span></b><b>20+<span>yo‘nalishlar</span></b><b>4<span>til</span></b></div>
+      </div>
+      <div class="heroCard"><img src="assets/logo.png"><h3 data-i18n="slogan2">Bilim ol, kasb egalla</h3></div>
+    </section>
+
+    <section class="section" id="about"><div class="sectionHead"><span>01</span><h2 data-i18n="aboutTitle">Texnikum haqida</h2></div><div class="grid cards" id="aboutList"></div></section>
+    <section class="section" id="leadership"><div class="sectionHead"><span>02</span><h2 data-i18n="leadershipTitle">Rahbariyat</h2></div><div class="grid people" id="leadershipList"></div></section>
+    <section class="section" id="programs"><div class="sectionHead"><span>03</span><h2 data-i18n="programsTitle">Yo‘nalishlar</h2></div><div class="grid cards" id="programList"></div></section>
+    <section class="section admission" id="admission"><div><span class="badge">Qabul 2026</span><h2 data-i18n="applyTitle">O‘qishga ariza yuborish</h2><p data-i18n="applyText">Ariza yuborish uchun avval oddiy foydalanuvchi sifatida ro‘yxatdan o‘ting yoki akkauntingizga kiring.</p></div><button class="gold" id="applyAdmission" data-i18n="applyShort">Ariza yuborish</button></section>
+    <section class="section" id="news"><div class="sectionHead"><span>04</span><h2 data-i18n="newsTitle">Yangiliklar</h2></div><div class="grid cards" id="newsList"></div></section>
+    <section class="section" id="gallery"><div class="sectionHead"><span>05</span><h2 data-i18n="galleryTitle">Galereya</h2></div><div class="grid gallery" id="galleryList"></div></section>
+    <section class="section" id="tour"><div class="sectionHead"><span>06</span><h2 data-i18n="tourTitle">Virtual tur</h2></div><div class="tour"><p>Bu bo‘limga texnikum 360° video yoki YouTube virtual tur havolasi joylanadi.</p><button class="outline" onclick="alert('Virtual tur havolasini admin paneldan qo‘shish mumkin')">Virtual turni ko‘rish</button></div></section>
+    <section class="section" id="partners"><div class="sectionHead"><span>07</span><h2 data-i18n="partnersTitle">Xalqaro hamkorlik</h2></div><div class="grid cards" id="partnersList"></div></section>
+    <section class="section" id="graduates"><div class="sectionHead"><span>08</span><h2 data-i18n="graduatesTitle">Bitiruvchilar</h2></div><div class="grid cards" id="graduatesList"></div></section>
+    <section class="section" id="library"><div class="sectionHead"><span>09</span><h2 data-i18n="libraryTitle">Elektron kutubxona</h2></div><div class="grid cards" id="libraryList"></div></section>
+
+    <section class="section contactSection" id="contact">
+      <div class="sectionHead"><span>10</span><h2 data-i18n="contactTitle">Biz bilan bog‘lanish</h2></div>
+      <div class="contactGrid">
+        <div class="contactCard"><b data-i18n="address">Manzil</b><p>Marg‘ilon shahri, Farg‘ona viloyati</p></div>
+        <div class="contactCard"><b data-i18n="phone">Telefon</b><p>+998 71 237-16-43</p></div>
+        <div class="socials" id="socialsBox"></div>
+      </div>
+    </section>
+    <section class="section" id="map"><div class="sectionHead"><span>11</span><h2 data-i18n="mapTitle">Google xarita</h2></div><iframe class="map" src="https://www.google.com/maps?q=Margilan%20city%20Uzbekistan&output=embed" loading="lazy"></iframe></section>
+  </main>
+
+  <button class="chatBtn" id="chatBtn">AI</button>
+  <div class="chatBox" id="chatBox"><b>AI chatbot</b><p>Savolingizni yozing. Demo rejimda sayt bo‘yicha javob beradi.</p><input id="chatInput" placeholder="Savol yozing..."><button id="chatSend">Yuborish</button><div id="chatAnswer"></div></div>
+
+  <div class="modal" id="authModal"><div class="modalContent"><button class="close" data-close>×</button><h2 id="authTitle">Kirish</h2><div id="authHint"></div><input id="authName" placeholder="Ism familiya"><input id="authLogin" placeholder="Login yoki email"><input id="authPass" type="password" placeholder="Parol"><button class="gold full" id="authSubmit">Davom etish</button><p class="small" data-i18n="authSafe">Ma’lumotlaringiz xavfsiz saqlanadi.</p></div></div>
+  <div class="modal" id="applyModal"><div class="modalContent"><button class="close" data-close>×</button><h2>O‘qishga ariza</h2><input id="appName" placeholder="F.I.Sh"><input id="appPhone" placeholder="Telefon raqam"><select id="appProgram"></select><textarea id="appNote" placeholder="Qo‘shimcha izoh"></textarea><button class="gold full" id="sendApply">Telegram botga yuborish</button><p class="small">Netlify Functions sozlansa, xabar Telegram botga boradi.</p></div></div>
+  <div class="modal" id="editModal"><div class="modalContent"><button class="close" data-close>×</button><h2 id="editTitle">Tahrirlash</h2><input id="editA" placeholder="Sarlavha / ism"><input id="editB" placeholder="Matn / lavozim"><textarea id="editC" placeholder="Qo‘shimcha matn"></textarea><label class="fileLabel">Rasm yuklash <input type="file" id="editImage" accept="image/*"></label><img id="editPreview" class="editPreview" alt="Rasm ko‘rinishi"><button class="ghost full" id="removeImage">Rasmni olib tashlash</button><button class="gold full" id="saveEdit">Saqlash</button></div></div>
+  <div class="modal" id="socialModal"><div class="modalContent"><button class="close" data-close>×</button><h2>Ijtimoiy tarmoq havolalari</h2><input id="socTelegram" placeholder="Telegram link"><input id="socInstagram" placeholder="Instagram link"><input id="socYoutube" placeholder="YouTube link"><input id="socFacebook" placeholder="Facebook link"><button class="gold full" id="saveSocials">Saqlash</button><p class="small">Bu havolalar brauzer localStorage xotirasida saqlanadi.</p></div></div>
+
+  <footer><img src="assets/logo.png"><div><b>Marg‘ilon shahar 4-son texnikumi</b><p>1963-yildan buyon ta'lim va taraqqiyot yo‘lida</p></div><a href="#top">Yuqoriga ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
